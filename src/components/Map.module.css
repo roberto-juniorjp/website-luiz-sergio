@@ -1,0 +1,77 @@
+.map {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: 1000px;
+  margin: 30px 0;
+}
+
+.mapEmbed {
+  padding-bottom: 75%;
+  position: relative;
+}
+
+.mapEmbed iframe {
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+}
+
+.map h2 {
+  font-family: "aspira";
+  font-size: 30px;
+  color: white;
+  padding-left: 10px;
+  border-left: 8px solid #fde664;
+  margin: 20px 0;
+}
+
+.map .button {
+  position: relative;
+  padding: 10px;
+}
+
+.map .button button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  border: none;
+  font-family: "aspira";
+  font-weight: 900;
+  font-size: 48px;
+  padding: 15px;
+  cursor: pointer;
+
+  color: #333;
+}
+
+.map a {
+  text-decoration: none;
+}
+
+.map a button span {
+  margin-right: 10px;
+}
+
+.map button.mapPin i {
+  color: #ea4335;
+}
+
+.iContainer {
+  transition: transform 1s ease;
+}
+
+.mapPin:hover .iContainer {
+  transform: rotate(360deg);
+}
+
+@media (max-width: 1040px) {
+  .map {
+    width: 95%;
+  }
+}

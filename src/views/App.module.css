@@ -1,0 +1,30 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(
+    135deg,
+    rgba(47, 86, 167, 1) 0%,
+    rgba(22, 131, 195, 1) 91%
+  );
+  background-attachment: scroll;
+}
+
+.content {
+  width: 1000px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  border: 2px solid #222;
+  border-radius: 8px;
+}
+
+@media (max-width: 1040px) {
+  .content {
+    flex-direction: column;
+    width: 95%;
+  }
+}

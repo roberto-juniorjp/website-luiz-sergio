@@ -1,0 +1,21 @@
+.footer {
+  width: 100%;
+  font-size: 19px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  color: #333;
+  padding: 20px;
+}
+
+.footer span {
+  color: #1681c2;
+  margin: 0 4px;
+  font-weight: bold;
+}
+
+.footer a {
+  color: #333;
+  text-decoration: none;
+}

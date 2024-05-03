@@ -1,0 +1,60 @@
+.mainMenu {
+  display: flex;
+  flex-direction: column;
+  flex: 0.5;
+  margin: 20px;
+}
+
+.mainMenu h2 {
+  font-family: "aspira";
+  font-size: 30px;
+  margin: auto;
+  padding: 10px 0;
+  color: white;
+}
+
+.mainMenu a {
+  text-decoration: none;
+  margin: 15px 0;
+}
+
+.mainMenu a button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: #333;
+  background-color: white;
+  padding: 20px 0;
+  cursor: pointer;
+  font-size: 24px;
+  font-family: "Aspira";
+  font-weight: 700;
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+}
+
+.mainMenu a button span {
+  margin-right: 10px;
+}
+
+.mainMenu a button i {
+  vertical-align: middle;
+}
+
+.mainMenu a button.whatsapp i {
+  color: green;
+}
+
+.mainMenu a button.youtube i {
+  color: red;
+}
+
+.iContainer {
+  transition: transform 1s ease;
+}
+
+.mainMenu button:hover .iContainer {
+  transform: rotate(360deg);
+}

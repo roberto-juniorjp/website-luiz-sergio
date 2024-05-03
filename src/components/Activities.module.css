@@ -1,0 +1,72 @@
+.activities {
+  display: flex;
+  flex-direction: column;
+
+  flex: 0.5;
+  margin: 20px;
+}
+
+.activities h2 {
+  font-family: "aspira";
+  font-size: 30px;
+  margin: 0 auto 20px auto;
+  padding: 10px 0;
+  color: white;
+}
+
+.activities ul li {
+  font-size: 19px;
+  color: white;
+  margin: 20px;
+  border-left: 4px solid #fde664;
+  padding-left: 10px;
+}
+
+.activities ul li h3 {
+  font-family: helvetica;
+  font-weight: lighter;
+}
+
+.activities ul li p {
+  color: #222;
+}
+
+.activities .buttonContainer {
+  width: 250px;
+  margin: 20px;
+}
+
+.activities .buttonContainer button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 20px;
+  border-radius: 8px;
+  border: none;
+  font-size: 24px;
+  font-family: "aspira";
+  font-weight: 700;
+  color: #333;
+  cursor: pointer;
+}
+
+.activities .buttonContainer a {
+  text-decoration: none;
+}
+
+.activities a button.instagram i {
+  color: #ff0b5f;
+}
+
+.activities a button.instagram span {
+  margin-right: 10px;
+}
+
+.iContainer {
+  transition: transform 1s ease;
+}
+
+.instagram:hover .iContainer {
+  transform: rotate(360deg);
+}

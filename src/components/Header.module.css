@@ -1,0 +1,57 @@
+.mainHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.logo img {
+  max-width: 200px;
+  border-radius: 50%;
+  border: 4px solid #fde664;
+  padding: 8px;
+}
+
+.mainTitle {
+  margin: 20px 0 10px 0;
+}
+
+.mainTitle h1 {
+  font-family: "Aspira";
+  color: white;
+  font-size: 48px;
+  text-align: center;
+}
+
+.description {
+  color: #fde664;
+  font-size: 19px;
+  margin: 10px 0;
+}
+
+.social {
+  margin: 10px 0;
+}
+
+.social ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.social ul a {
+  color: white;
+}
+
+.social ul li {
+  font-size: 30px;
+  margin: 0 12px;
+}
+
+.social li {
+  transition: transform 1s ease;
+}
+
+.social li:hover {
+  transform: rotate(360deg);
+}
