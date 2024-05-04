@@ -42,27 +42,26 @@
   flex-direction: row;
 }
 
-.social ul a {
-  background: -moz-linear-gradient(
-    135deg,
-    rgba(209, 146, 12, 1) 0%,
-    rgba(253, 230, 100, 1) 91%
+.textGradient {
+  background-image: linear-gradient(
+    0deg,
+    rgba(209, 146, 12, 1),
+    rgba(253, 230, 100, 1)
   );
-  background: -webkit-linear-gradient(
-    135deg,
-    rgba(209, 146, 12, 1) 0%,
-    rgba(253, 230, 100, 1) 91%
-  );
-  background: linear-gradient(
-    135deg,
-    rgba(209, 146, 12, 1) 0%,
-    rgba(253, 230, 100, 1) 91%
-  );
+
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+
+  background-repeat: repeat;
+
   -webkit-background-clip: text;
   -moz-background-clip: text;
   background-clip: text;
+
   -webkit-text-fill-color: transparent;
-  color: #fde664;
+  -moz-text-fill-color: transparent;
 }
 
 .social ul li {
