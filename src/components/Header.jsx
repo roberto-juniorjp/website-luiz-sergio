@@ -1,15 +1,13 @@
 import React from "react";
 import styles from "./Header.module.css";
+import logo from "../assets/img/logo-ls-white.webp";
 
 const Header = () => {
   return (
     <div className={styles.mainHeader}>
       <div className={styles.logo}>
         <a href="/">
-          <img
-            src="./src/assets/img/logo-ls-white.webp"
-            alt="Logo Núcleo Espírita Luiz Sérgio"
-          />
+          <img src={logo} alt="Logo Núcleo Espírita Luiz Sérgio" />
         </a>
       </div>
       <div className={styles.mainTitle}>
