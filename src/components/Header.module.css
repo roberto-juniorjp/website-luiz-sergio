@@ -42,7 +42,7 @@
   flex-direction: row;
 }
 
-.textGradient i {
+.textGradient {
   background-image: linear-gradient(
     0deg,
     rgba(209, 146, 12, 1),

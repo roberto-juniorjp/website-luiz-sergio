@@ -39,7 +39,7 @@ const Header = () => {
               target="_blank"
               className={styles.textGradient}
             >
-              <i class="bi bi-whatsapp"></i>
+              A<i class="bi bi-whatsapp"></i>
             </a>
           </li>
         </ul>
