@@ -19,6 +19,7 @@ const Header = () => {
             <a
               href="https://instagram.com/nucleoespiritaluizsergio"
               target="_blank"
+              className={styles.textGradient}
             >
               <i class="bi bi-instagram"></i>
             </a>
@@ -27,12 +28,17 @@ const Header = () => {
             <a
               href="https://www.youtube.com/@CanalEspiritaLuizSergio"
               target="_blank"
+              className={styles.textGradient}
             >
               <i class="bi bi-youtube"></i>
             </a>
           </li>
           <li>
-            <a href="https://wa.me/556198611928" target="_blank">
+            <a
+              href="https://wa.me/556198611928"
+              target="_blank"
+              className={styles.textGradient}
+            >
               <i class="bi bi-whatsapp"></i>
             </a>
           </li>
