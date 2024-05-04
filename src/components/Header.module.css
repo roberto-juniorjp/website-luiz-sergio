@@ -15,10 +15,11 @@
 
 .mainTitle {
   margin: 20px 0 10px 0;
+  padding: 0 20px;
 }
 
 .mainTitle h1 {
-  font-family: "Aspira";
+  font-family: "Montserrat", sans-serif;
   color: white;
   font-size: 48px;
   text-align: center;
@@ -28,6 +29,8 @@
   color: #fde664;
   font-size: 19px;
   margin: 10px 0;
+  text-align: center;
+  padding: 0 20px;
 }
 
 .social {

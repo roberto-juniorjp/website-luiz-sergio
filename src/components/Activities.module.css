@@ -7,11 +7,12 @@
 }
 
 .activities h2 {
-  font-family: "aspira";
+  font-family: "Montserrat", sans-serif;
   font-size: 30px;
   margin: 0 auto 20px auto;
   padding: 10px 0;
   color: white;
+  text-align: center;
 }
 
 .activities ul li {
@@ -32,7 +33,7 @@
 }
 
 .activities .buttonContainer {
-  width: 250px;
+  max-width: 300px;
   margin: 20px;
 }
 
@@ -45,7 +46,7 @@
   border-radius: 8px;
   border: none;
   font-size: 24px;
-  font-family: "aspira";
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   color: #333;
   cursor: pointer;
@@ -69,4 +70,10 @@
 
 .instagram:hover .iContainer {
   transform: rotate(360deg);
+}
+
+@media (max-width: 350px) {
+  .activities .buttonContainer button {
+    font-size: 20px;
+  }
 }

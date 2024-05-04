@@ -4,6 +4,7 @@ import Map from "../components/Map";
 import Header from "../components/Header";
 import Activities from "../components/Activities";
 import Footer from "../components/Footer";
+import QrCode from "../components/QrCode";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Menu />
       </div>
       <Map />
+      {/* <QrCode /> */}
       <Footer />
     </div>
   );

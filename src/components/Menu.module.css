@@ -6,11 +6,12 @@
 }
 
 .mainMenu h2 {
-  font-family: "aspira";
+  font-family: "Montserrat", sans-serif;
   font-size: 30px;
   margin: auto;
   padding: 10px 0;
   color: white;
+  text-align: center;
 }
 
 .mainMenu a {
@@ -25,10 +26,10 @@
   justify-content: center;
   color: #333;
   background-color: white;
-  padding: 20px 0;
+  padding: 20px 10px;
   cursor: pointer;
   font-size: 24px;
-  font-family: "Aspira";
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   width: 100%;
   border: none;
@@ -57,4 +58,18 @@
 
 .mainMenu button:hover .iContainer {
   transform: rotate(360deg);
+}
+
+@media (max-width: 530px) {
+  .mainMenu a button {
+    font-size: 16px;
+    padding: 15px 10px;
+  }
+}
+
+@media (max-width: 390px) {
+  .mainMenu a button {
+    padding: 10px 10px;
+    font-size: 12px;
+  }
 }

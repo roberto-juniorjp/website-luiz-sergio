@@ -20,7 +20,7 @@
 }
 
 .map h2 {
-  font-family: "aspira";
+  font-family: "Montserrat", sans-serif;
   font-size: 30px;
   color: white;
   padding-left: 10px;
@@ -41,13 +41,15 @@
   height: 100%;
   width: 100%;
   border: none;
-  font-family: "aspira";
   font-weight: 900;
   font-size: 48px;
   padding: 15px;
   cursor: pointer;
-
   color: #333;
+}
+
+.map .button button span {
+  font-family: "Montserrat", sans-serif;
 }
 
 .map a {
@@ -73,5 +75,17 @@
 @media (max-width: 1040px) {
   .map {
     width: 95%;
+  }
+}
+
+@media (max-width: 520px) {
+  .map .button button {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 410px) {
+  .map .button button {
+    font-size: 26px;
   }
 }
