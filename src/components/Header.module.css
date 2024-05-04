@@ -64,6 +64,10 @@
   -moz-text-fill-color: transparent;
 }
 
+path {
+  fill: url(#gradient);
+}
+
 .social ul li {
   font-size: 30px;
   margin: 0 12px;
