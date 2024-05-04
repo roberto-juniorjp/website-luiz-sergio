@@ -8,11 +8,15 @@ const Activities = () => {
       <ul>
         <li>
           <h3>Palestras Públicas</h3>
-          <p>Sábados às 15:30</p>
+          <p>
+            Sábados às <span>15:30</span>
+          </p>
         </li>
         <li>
           <h3>Tratamento de Desobsessão</h3>
-          <p>Segundas às 20:30</p>
+          <p>
+            Segundas às <span>20:30</span>
+          </p>
         </li>
       </ul>
       <div className={styles.buttonContainer}>

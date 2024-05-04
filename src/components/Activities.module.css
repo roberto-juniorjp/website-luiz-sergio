@@ -9,7 +9,7 @@
 .activities h2 {
   font-family: "Montserrat", sans-serif;
   font-size: 30px;
-  margin: 0 auto 20px auto;
+  margin: 0 auto 30px auto;
   padding: 10px 0;
   color: white;
   text-align: center;
@@ -18,7 +18,7 @@
 .activities ul li {
   font-size: 19px;
   color: white;
-  margin: 20px;
+  margin: 10px 20px 40px 20px;
   border-left: 4px solid #fde664;
   padding-left: 10px;
 }
@@ -29,7 +29,14 @@
 }
 
 .activities ul li p {
-  color: #222;
+  margin-top: 4px;
+  font-style: italic;
+  color: #000;
+}
+
+.activities ul li p span {
+  color: #fde664;
+  font-weight: 600;
 }
 
 .activities .buttonContainer {
@@ -57,6 +64,10 @@
 }
 
 .activities a button.instagram i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
   color: #ff0b5f;
 }
 
@@ -65,15 +76,23 @@
 }
 
 .iContainer {
-  transition: transform 1s ease;
+  transition: transform 0.5s ease;
 }
 
 .instagram:hover .iContainer {
   transform: rotate(360deg);
 }
 
-@media (max-width: 350px) {
+@media (max-width: 365px) {
   .activities .buttonContainer button {
-    font-size: 20px;
+    font-size: 16px;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 1040px) {
+  .activities {
+    border-bottom: 2px dashed white;
+    padding-bottom: 40px;
   }
 }

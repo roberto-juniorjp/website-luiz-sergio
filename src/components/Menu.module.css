@@ -8,7 +8,7 @@
 .mainMenu h2 {
   font-family: "Montserrat", sans-serif;
   font-size: 30px;
-  margin: auto;
+  margin: 0 auto 30px auto;
   padding: 10px 0;
   color: white;
   text-align: center;
@@ -38,10 +38,14 @@
 
 .mainMenu a button span {
   margin-right: 10px;
+  vertical-align: middle;
 }
 
 .mainMenu a button i {
-  vertical-align: middle;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
 }
 
 .mainMenu a button.whatsapp i {
@@ -53,7 +57,7 @@
 }
 
 .iContainer {
-  transition: transform 1s ease;
+  transition: transform 0.5s ease;
 }
 
 .mainMenu button:hover .iContainer {
@@ -67,9 +71,15 @@
   }
 }
 
-@media (max-width: 390px) {
+@media (max-width: 410px) {
   .mainMenu a button {
     padding: 10px 10px;
     font-size: 12px;
+  }
+}
+
+@media (max-width: 350px) {
+  .mainMenu a button {
+    font-size: 10px;
   }
 }
