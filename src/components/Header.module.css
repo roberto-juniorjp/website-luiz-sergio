@@ -43,13 +43,24 @@
 }
 
 .social ul a {
+  background: -moz-linear-gradient(
+    135deg,
+    rgba(209, 146, 12, 1) 0%,
+    rgba(253, 230, 100, 1) 91%
+  );
+  background: -webkit-linear-gradient(
+    135deg,
+    rgba(209, 146, 12, 1) 0%,
+    rgba(253, 230, 100, 1) 91%
+  );
   background: linear-gradient(
     135deg,
     rgba(209, 146, 12, 1) 0%,
     rgba(253, 230, 100, 1) 91%
   );
-  background-clip: text;
   -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   color: #fde664;
 }
