@@ -40,19 +40,23 @@
 .social ul {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 path {
   fill: url(#gradient);
 }
 
-.social ul li {
+.social li {
+  display: flex;
   font-size: 30px;
   margin: 0 12px;
+  transition: transform 0.5s ease;
 }
 
-.social li {
-  transition: transform 0.5s ease;
+.social li svg {
+  display: flex;
 }
 
 .social li:hover {
